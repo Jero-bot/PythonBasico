@@ -1,4 +1,7 @@
-#Se asignan las variables
+#primer hola mundo
+print("hola mundo")
+
+#Asignacion de variables
 variableNumero = 10
 numeroDos = 2
 variableTexto = "Jeronimo"
@@ -11,4 +14,4 @@ print(variableTexto, variableNumero, variableLogica)
 print("la suma es:",variableNumero + numeroDos)
 
 numeroFavorito = input("Ingrese su numero favorito: ")
-print("El numero del usurio es:",numeroFavorito)
+print("El numero del usurio es:", numeroFavorito)
