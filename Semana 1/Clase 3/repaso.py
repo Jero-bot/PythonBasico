@@ -1,7 +1,4 @@
 #imprimir un texto simple
-from __future__ import division
-
-
 print("Hola, como estas?")
 
 #imprimir varios textos separados por espacios
