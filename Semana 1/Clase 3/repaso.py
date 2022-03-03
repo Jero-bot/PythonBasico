@@ -62,3 +62,9 @@ variable4 = -10.1
 #primero sumamos (variable1 + variable2) y luego lo dividimos entre el resultado de (variable3 - variable4)
 operacionUno = (variable1 + variable2) / (variable3 - variable4)
 print(operacionUno)
+
+#comando de input general de tipo texto
+inputDelUsuario = input("Por favor ingrese un valor: ")
+
+#comando de input de tipo numerico
+inputNumerico = int(input("Por favor ingrese un valor numerico: "))
