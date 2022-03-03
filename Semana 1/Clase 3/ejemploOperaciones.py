@@ -8,4 +8,4 @@ valorPropina = int(input("Por favor ingrese el valor que quiere dar de propina: 
 propina = (totalFactura * valorPropina) / 100
 
 #Paso 4: Mostrarle al usario el valor de la propina
-print(f"el total de la propina es de el {propina} $")
+print(f"el total de la propina es de: {propina} $")
