@@ -11,7 +11,7 @@ e = -2.7
 f = 1
 
 ejercicio = (a - ((b+c) / (d-e)) + (e - (f ** 2.3))) / (4.5 + d)
-print(ejercicio)
+print(f"la solucion es {ejercicio}")
 
 
-r= a + (b - c *(d -(a + b) * (c - c/d *a) % a + b*c ) - (b**c)) ** b
+r = a + (b - c *(d -(a + b) * (c - c/d *a) % a + b*c ) - (b**c)) ** b
