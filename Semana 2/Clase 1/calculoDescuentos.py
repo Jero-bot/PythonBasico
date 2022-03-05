@@ -38,20 +38,32 @@ print(f"El total de los huevos es de: {totalHuevos}")
 print(f"El total de las arepas es de: {totalArepas}")
 print(f"El total de la compra es de: {subTotal}$")
 
-#Condiciones adicionales que se deben cumplir:
-#1. Si el total de la compra es mayor a 50.000, y solo estoy comprando un producto, dar un descuento adicional del 10%
-if subTotal > 50000 and (cantidadHuevos == 0 or cantidadArepas == 0):
-    descuento = subTotal * 10 / 100
-    totalCompra = subTotal - descuento
-    print(f"El descuento de la compra es de {descuento}")
-    print(f"El precio final de la compra con el 10% de descuento es de: {totalCompra}")
-#2. Si el total de la compra es mayor a 50.000 y 
-# además se están comprando huevos y arepas, el descuento no es 10% sino que es 15%
-elif subTotal > 50000 and(cantidadHuevos > 0 and cantidadArepas > 0):
-    descuento = subTotal * 15 / 100
-    totalCompra = subTotal - descuento
-    print(f"El descuento de la compra es de {descuento}")
-    print(f"El precio final de la compra con el 15% de descuento es de: {totalCompra}")
+# #Condiciones adicionales que se deben cumplir:
+# #1. Si el total de la compra es mayor a 50.000, y solo estoy comprando un producto, dar un descuento adicional del 10%
+# if subTotal > 50000 and (cantidadHuevos == 0 or cantidadArepas == 0):
+#     descuento = subTotal * 10 / 100
+#     totalCompra = subTotal - descuento
+# #2. Si el total de la compra es mayor a 50.000 y 
+# # además se están comprando huevos y arepas, el descuento no es 10% sino que es 15%
+# elif subTotal > 50000 and(cantidadHuevos > 0 and cantidadArepas > 0):
+#     descuento = subTotal * 15 / 100
+#     totalCompra = subTotal - descuento
+# else:
+#     descuento = 0
+#     totalCompra = subTotal
+# print(f"El descuento de la compra es de {descuento}$")
+# print(f"El precio final de la compra es de: {totalCompra}$")
 
+
+#Ejemplo de if anidado
+descuento = 0 
+if subTotal > 50000:
+    if cantidadHuevos == 0 or cantidadArepas == 0:
+        descuento = subTotal * 10 / 100
+    else:
+        descuento = subTotal * 15 / 100
 
 # Mostrarle al usuario el total de la compra y también el total del descuento
+total = subTotal - descuento
+print(f"el descuento de la compra es de: {descuento}$")
+print(f"el total de la compra es de {total}$")
