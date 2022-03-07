@@ -10,10 +10,10 @@ for number in listOfNumbers:
     if number > 15:
         print(number)
 
-otherList = ["colombia", "uruguay", 355, 89] #Ejemplo de como imprimir un elemento y su respectivo indice
+otherList = ["colombia", "uruguay", 355, 89] 
 print(otherList[0])
 
-for index, element in enumerate(otherList):
+for index, element in enumerate(otherList): #Ejemplo de como imprimir un elemento y su respectivo indice
     print(index, element)
 
 #Ejemplo de matrix
