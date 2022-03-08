@@ -42,16 +42,16 @@ for grade in listOfGrades:
         sumaSobresaliente = sumaSobresaliente + grade
 
 
-print(f"la cantidad de estudiantes con notas insuficientes es {contInsuficente}")
-print(f"la cantidad de estudiantes con notas aceptables es {contAceptable}")
-print(f"la cantidad de estudiantes con notas contSobresaliente es {contSobresaliente}")
+print(f"la cantidad de estudiantes con nota insuficientes es {contInsuficente}")
+print(f"la cantidad de estudiantes con nota aceptable es {contAceptable}")
+print(f"la cantidad de estudiantes con nota sobresaliente es {contSobresaliente}")
 
-print(f"la sumatoria de las notas de los estudiantes con notas insuficientes es {sumaInsuficiente}")
-print(f"la sumatoria de las notas de los estudiantes con notas aceptables es {sumaAceptable}")
-print(f"la sumatoria de las notas de los estudiantes con notas sobresalientes es {sumaSobresaliente}")
+print(f"la sumatoria de las notas de los estudiantes con nota insuficiente es {sumaInsuficiente}")
+print(f"la sumatoria de las notas de los estudiantes con nota aceptable es {sumaAceptable}")
+print(f"la sumatoria de las notas de los estudiantes con nota sobresaliente es {sumaSobresaliente}")
 
 
 
-print(f"el promedio de los estudiantes con notas insuficientes es {sumaInsuficiente / contInsuficente}")
-print(f"el promedio de los estudiantes con notas aceptables es {sumaAceptable / contAceptable}")
-print(f"el promedio de los estudiantes con notas sobresalientes es {sumaSobresaliente / contSobresaliente}")
+print(f"el promedio de los estudiantes con nota insuficiente es {sumaInsuficiente / contInsuficente}")
+print(f"el promedio de los estudiantes con nota aceptable es {sumaAceptable / contAceptable}")
+print(f"el promedio de los estudiantes con nota sobresaliente es {sumaSobresaliente / contSobresaliente}")
