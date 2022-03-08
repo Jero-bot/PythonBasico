@@ -5,7 +5,7 @@ for element in names: #Ejemplo de imprimir un elemento de una lista
     print(element)
 
 
-listOfNumbers = [10, 45, -5, 20, 28.5] #Ejemplo de como imprimir los numerps mayores a 15 de una lista
+listOfNumbers = [10, 45, -5, 20, 28.5] #Ejemplo de como imprimir los numeros mayores a 15 de una lista
 for number in listOfNumbers:
     if number > 15:
         print(number)
